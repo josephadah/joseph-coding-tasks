@@ -12,10 +12,7 @@ namespace verivox.Models
 
         public ProductA(decimal annualConsumptionInKWh = 0)
         {
-            if (annualConsumptionInKWh != 0)
-            {
-                AnnualConsumptionInKWh = annualConsumptionInKWh;
-            }
+            AnnualConsumptionInKWh = annualConsumptionInKWh;
         }
 
         public string TariffName { get; set; } = "Basic Electricity Tariff";

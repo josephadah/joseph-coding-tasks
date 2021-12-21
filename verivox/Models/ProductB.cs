@@ -13,10 +13,7 @@ namespace verivox.Models
 
         public ProductB(decimal annualConsumptionInKWh)
         {
-            if (annualConsumptionInKWh != 0)
-            {
-                AnnualConsumptionInKWh = annualConsumptionInKWh;
-            }
+            AnnualConsumptionInKWh = annualConsumptionInKWh;
         }
 
         public string TariffName { get; set; } = "Packaged Tariff";
